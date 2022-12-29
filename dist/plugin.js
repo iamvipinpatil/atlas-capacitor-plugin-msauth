@@ -61,7 +61,9 @@ var capacitorMsAuth = (function (exports, core, msalBrowser) {
 
     exports.MsAuthPlugin = MsAuthPlugin;
 
+    Object.defineProperty(exports, '__esModule', { value: true });
+
     return exports;
 
-}({}, capacitorExports, msalBrowser));
+})({}, capacitorExports, msalBrowser);
 //# sourceMappingURL=plugin.js.map

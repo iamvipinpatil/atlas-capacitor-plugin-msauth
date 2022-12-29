@@ -93,8 +93,8 @@ public class MsAuthPlugin extends Plugin {
                     new ISingleAccountPublicClientApplication.SignOutCallback() {
                         @Override
                         public void onSignOut() {
-                            JSObject obj=new JSObject();
-                            obj.put("message","Logout Success");
+                            JSObject obj = new JSObject();
+                            obj.put("message", "Logout Success");
                             call.resolve(obj);
                         }
 
